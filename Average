@@ -1,0 +1,12 @@
+function getAverage(nums) {
+    let sum = 0;
+    for (let i = 0; i < nums.length; i++) {
+        sum += nums[i];
+    }
+    let average = sum / nums.length;
+    return average;
+}
+
+const values = [10, 20, 30, 40, 50];
+const averageValue = getAverage(values);
+console.log("Average is:", averageValue);
